@@ -1,6 +1,7 @@
 import {Routes} from '@angular/router';
 import {Home} from './demo-app';
 import {ButtonDemo} from '../button/button-demo';
+import {CustomButton} from '../CustomButton/CustomButton'
 import {BaselineDemo} from '../baseline/baseline-demo';
 import {ButtonToggleDemo} from '../button-toggle/button-toggle-demo';
 import {TabsDemo} from '../tabs/tab-group-demo';
@@ -25,11 +26,16 @@ import {MenuDemo} from '../menu/menu-demo';
 import {RippleDemo} from '../ripple/ripple-demo';
 import {DialogDemo} from '../dialog/dialog-demo';
 import {TooltipDemo} from '../tooltip/tooltip-demo';
+import {CustomInputComponent} from '../CustomInputComponent/CustomInputComponent';
+import {TextDemo} from '../text/text-demo';
 
 
 export const DEMO_APP_ROUTES: Routes = [
   {path: '', component: Home},
   {path: 'button', component: ButtonDemo},
+  {path: 'custombutton', component: CustomButton},
+  {path: 'text', component: TextDemo},
+  {path: 'custominputcomponent', component: CustomInputComponent},
   {path: 'card', component: CardDemo},
   {path: 'radio', component: RadioDemo},
   {path: 'sidenav', component: SidenavDemo},

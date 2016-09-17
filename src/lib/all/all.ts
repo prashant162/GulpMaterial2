@@ -25,12 +25,14 @@ import {
 } from '@angular2-material/core';
 import {MdMenuModule} from '@angular2-material/menu';
 import {MdDialogModule} from '@angular2-material/dialog';
+import {MdTextModule} from '@angular2-material/text';
 
 
 const MATERIAL_MODULES = [
   MdButtonModule,
   MdButtonToggleModule,
   MdCardModule,
+  MdTextModule,
   MdCheckboxModule,
   MdDialogModule,
   MdGridListModule,
@@ -57,6 +59,7 @@ const MATERIAL_MODULES = [
   imports: [
     MdButtonModule.forRoot(),
     MdCardModule.forRoot(),
+    MdTextModule.forRoot(),
     MdCheckboxModule.forRoot(),
     MdGridListModule.forRoot(),
     MdInputModule.forRoot(),

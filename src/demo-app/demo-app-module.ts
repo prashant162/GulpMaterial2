@@ -25,12 +25,15 @@ import {OverlayDemo, SpagettiPanel, RotiniPanel} from './overlay/overlay-demo';
 import {SlideToggleDemo} from './slide-toggle/slide-toggle-demo';
 import {ToolbarDemo} from './toolbar/toolbar-demo';
 import {ButtonDemo} from './button/button-demo';
+import {CustomButton} from './CustomButton/CustomButton';
 import {MdCheckboxDemoNestedChecklist, CheckboxDemo} from './checkbox/checkbox-demo';
 import {SliderDemo} from './slider/slider-demo';
 import {SidenavDemo} from './sidenav/sidenav-demo';
 import {PortalDemo, ScienceJoke} from './portal/portal-demo';
 import {MenuDemo} from './menu/menu-demo';
 import {TabsDemo} from './tabs/tab-group-demo';
+import {CustomInputComponent} from './CustomInputComponent/CustomInputComponent';
+import {TextDemo} from './text/text-demo';
 
 
 
@@ -44,7 +47,10 @@ import {TabsDemo} from './tabs/tab-group-demo';
   ],
   declarations: [
     BaselineDemo,
+    TextDemo,
     ButtonDemo,
+	  CustomButton,
+    CustomInputComponent,
     ButtonToggleDemo,
     CardDemo,
     CheckboxDemo,

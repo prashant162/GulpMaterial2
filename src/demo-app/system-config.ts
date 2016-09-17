@@ -23,6 +23,7 @@ const components = [
   'tabs',
   'toolbar',
   'tooltip',
+  'text',
 ];
 
 

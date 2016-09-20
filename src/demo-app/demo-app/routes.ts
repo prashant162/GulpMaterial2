@@ -28,6 +28,7 @@ import {DialogDemo} from '../dialog/dialog-demo';
 import {TooltipDemo} from '../tooltip/tooltip-demo';
 import {CustomInputComponent} from '../CustomInputComponent/CustomInputComponent';
 import {TextDemo} from '../text/text-demo';
+import {FlipperDemo} from '../flipper/flipper-demo';
 
 
 export const DEMO_APP_ROUTES: Routes = [
@@ -37,6 +38,7 @@ export const DEMO_APP_ROUTES: Routes = [
   {path: 'text', component: TextDemo},
   {path: 'custominputcomponent', component: CustomInputComponent},
   {path: 'card', component: CardDemo},
+  {path: 'flipper', component: FlipperDemo},
   {path: 'radio', component: RadioDemo},
   {path: 'sidenav', component: SidenavDemo},
   {path: 'slide-toggle', component: SlideToggleDemo},

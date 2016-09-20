@@ -1,0 +1,18 @@
+<md-flipper flipped="flipped" horizontal [class.flipped]="isClassVisible">
+	<div class="front tile">
+		the front!
+	</div>
+	<div class="back tile">
+		the back!
+	</div>
+</md-flipper>
+
+<md-flipper flipped="flipped" vertical [class.flipped]="isClassVisible">
+	<div class="front tile">
+		the front!
+	</div>
+	<div class="back tile">
+		the back!
+	</div>
+</md-flipper>
+<button md-raised-button (click)="flip()">Flip!</button>

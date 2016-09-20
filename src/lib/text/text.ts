@@ -15,7 +15,9 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class MdText {}
+export class MdText {
+  
+}
 
 @NgModule({
   exports: [

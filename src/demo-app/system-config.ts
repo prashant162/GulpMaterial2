@@ -24,6 +24,7 @@ const components = [
   'toolbar',
   'tooltip',
   'text',
+  'flipper',
 ];
 
 

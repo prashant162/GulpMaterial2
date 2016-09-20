@@ -26,6 +26,7 @@ import {
 import {MdMenuModule} from '@angular2-material/menu';
 import {MdDialogModule} from '@angular2-material/dialog';
 import {MdTextModule} from '@angular2-material/text';
+import {MdFlipperModule} from '@angular2-material/flipper';
 
 
 const MATERIAL_MODULES = [
@@ -35,6 +36,7 @@ const MATERIAL_MODULES = [
   MdTextModule,
   MdCheckboxModule,
   MdDialogModule,
+  MdFlipperModule,
   MdGridListModule,
   MdIconModule,
   MdInputModule,
@@ -61,6 +63,7 @@ const MATERIAL_MODULES = [
     MdCardModule.forRoot(),
     MdTextModule.forRoot(),
     MdCheckboxModule.forRoot(),
+    MdFlipperModule.forRoot(),
     MdGridListModule.forRoot(),
     MdInputModule.forRoot(),
     MdListModule.forRoot(),

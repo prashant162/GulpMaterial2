@@ -7,4 +7,6 @@ import {Component} from '@angular/core';
   templateUrl: 'text-demo.html',
   styleUrls: ['text-demo.css'],
 })
-export class TextDemo {}
+export class TextDemo {
+  title="My custom text component";
+}

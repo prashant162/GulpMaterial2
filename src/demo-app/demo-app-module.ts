@@ -34,7 +34,7 @@ import {MenuDemo} from './menu/menu-demo';
 import {TabsDemo} from './tabs/tab-group-demo';
 import {CustomInputComponent} from './CustomInputComponent/CustomInputComponent';
 import {TextDemo} from './text/text-demo';
-
+import {FlipperDemo} from './flipper/flipper-demo';
 
 
 @NgModule({
@@ -56,6 +56,7 @@ import {TextDemo} from './text/text-demo';
     CheckboxDemo,
     DemoApp,
     DialogDemo,
+    FlipperDemo,
     GesturesDemo,
     GridListDemo,
     Home,
